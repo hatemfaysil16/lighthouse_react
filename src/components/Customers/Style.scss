@@ -1,0 +1,125 @@
+@import '../../Scss/helpers/media.scss';
+.containers{
+    .Customers{ 
+        @media #{$screen}{
+        margin-right: 4rem;
+        }
+    .embed-responsive-16by9::before {
+        padding-top:39.25%;
+        @media #{$Mobile}{
+            padding-top:60%;
+        }
+        @media #{$max_mobile}{
+            padding-top:66%;
+        }
+        @media #{$special}{
+            padding-top:66%;
+        }
+        @media #{$iphone}{
+            padding-top:58%;
+        }
+        @media #{$tablet}{
+            padding-top:52%;
+        }
+        @media #{$max_tablet}{
+            padding-top:52%;
+        }
+    }
+
+        iframe{
+            width: 83% !important;
+            height: 23rem !important;
+            margin-left: 7rem;
+            margin-bottom: 2rem;
+            margin-top: 4rem;
+            @media #{$Mobile}{
+                width: 70% !important;
+                height: 13rem !important;
+                margin-left: 4rem;
+            }
+            @media #{$max_mobile}{
+                width: 85% !important;
+                height: 8rem !important;
+                margin-left: 1.5rem;
+            }
+            @media #{$special}{
+                width: 84% !important;
+                height: 10rem !important;
+                margin-left: 2rem;
+            }
+            @media #{$iphone}{
+                width: 84% !important;
+                height: 11rem !important;
+                margin-left: 2rem;
+            }
+            @media #{$tablet}{
+                width: 84% !important;
+                height: 12rem !important;
+                margin-left: 2rem;
+            }
+            @media #{$max_tablet}{
+                width: 87% !important;
+                height: 19rem !important;
+                margin-left: 2rem;
+            }
+            @media #{$screen}{
+                width: 87% !important;
+                height: 25rem !important;
+            }
+        }
+        .info{
+            margin-left: 30rem;
+            @media #{$Mobile}{
+                margin-left: 11.10rem;
+            }
+            @media #{$max_mobile}{
+                margin-left: 7rem;
+
+            }
+            @media #{$special}{
+                margin-left: 8rem;
+
+            }
+            @media #{$iphone}{
+                margin-left: 8.5rem;
+
+            }
+            @media #{$tablet}{
+                margin-left: 11rem;
+
+            }
+            @media #{$max_tablet}{
+                margin-left: 16rem;
+            }
+            img{
+                width: 10%;
+                @media #{$Mobile}{
+                }
+                @media #{$max_mobile}{
+                    width:25%;
+                }
+                @media #{$special}{
+                    width:25%;
+
+                }
+                @media #{$iphone}{
+                    width:25%;
+
+                }
+                @media #{$tablet}{
+                    width:20%;
+
+                }
+                @media #{$max_tablet}{
+                    width:20%;
+
+                }
+            }
+        }
+    }
+}
+        
+    
+
+
+

@@ -1,0 +1,97 @@
+@import '../../../Scss/variables/allvar';
+@import '../../../Scss/helpers/media.scss';
+.Program{
+    font-family: $font-program;
+    .infos{
+        @media #{$screen}{
+            margin-left: 1rem;
+        }
+        h2{
+            margin-top: 1rem;
+            font-size: x-large;
+            color:$footer-line;
+            @media #{$Mobile}{
+                font-size: xx-small;
+            }
+            @media #{$max_mobile}{
+                font-size: xx-small;
+                margin-left: -0.5rem;
+            }
+            @media #{$special}{
+                font-size: x-small;
+                margin-left: -0.5rem;
+            }
+            @media #{$iphone}{
+                font-size: small;
+                margin-left: -0.5rem;
+            }
+            @media #{$tablet}{
+                font-size: large;
+                margin-left: -0.5rem;
+            }
+            @media #{$screen}{
+                font-size: xx-large;
+            }
+        }
+        ul{
+    @media #{$Mobile}{
+        position: absolute;
+        right: 0.5rem;
+        width: 108%;
+    }
+    @media #{$max_mobile}{
+        position: absolute;
+        right: 1.2rem;
+        width: 108%;
+    }
+    @media #{$special}{
+        position: absolute;
+        right: 1.2rem;
+        width: 108%;
+    }
+    @media #{$iphone}{
+        position: absolute;
+        right: 1.2rem;
+        width: 108%;
+    }
+    @media #{$tablet}{
+        position: absolute;
+        right: 0.8rem;
+        width: 100%;
+    }
+            a{
+                color: $three-color;
+                font-weight: 100;
+                font-size: small;
+                li{
+                    margin-top: 1rem;
+                    @media #{$Mobile}{
+                        font-size:8px;
+                    }
+                    @media #{$max_mobile}{
+                        font-size:7px;
+                        margin-top: 0.5rem;
+                    }
+                    @media #{$special}{
+                        font-size:xx-small;
+                        margin-top: 0.9rem;
+                    }
+                    @media #{$iphone}{
+                        font-size:x-small;
+                    }
+                    @media #{$screen}{
+                        font-size: larger;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

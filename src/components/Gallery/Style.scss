@@ -1,0 +1,56 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/mixins';
+@import '../../Scss/helpers/media.scss';
+.containers{
+    .counts{
+        padding-bottom: 3rem;
+    .gallery{
+        @include ar();
+        .headers{
+            font-size: x-large;
+            color: $danger-color;
+            font-weight: bolder;
+                @media #{$Mobile}{
+                    font-size: large;
+                }
+                @media #{$max_mobile}{
+                    font-size: large;
+                }
+                @media #{$special}{
+                    font-size: large;
+                }
+                @media #{$iphone}{
+                    font-size: large;
+                }
+                @media #{$tablet}{
+                    font-size: large;
+                }
+        }
+        .boody{
+            @include header();
+        }
+        ul{
+            li{
+                font-size: medium;
+                font-weight: bolder;
+                @media #{$Mobile}{
+                    font-size: x-small;
+                }
+                @media #{$max_mobile}{
+                    font-size: xx-small;
+                }
+                @media #{$special}{
+                    font-size: xx-small;
+                }
+                @media #{$iphone}{
+                    font-size: xx-small;
+                }
+                @media #{$tablet}{
+                    font-size: xx-small;
+                }
+            }
+        }
+
+    }
+}
+}

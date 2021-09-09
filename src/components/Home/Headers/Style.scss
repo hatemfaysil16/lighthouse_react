@@ -1,0 +1,120 @@
+@import '../../../Scss/helpers/mixins';
+@import '../../../Scss/variables/allvar';
+@import '../../../Scss/helpers/media.scss';
+
+.big{
+    width: 99%;
+    height: 18rem;
+    @media #{$Mobile}{
+        height: 15rem; 
+    }
+    @media #{$max_mobile}{
+        height: 13rem;
+    }
+    @media #{$special}{
+        height: 10rem;
+    }
+    @media #{$iphone}{
+        height: 10rem;
+    }
+    @media #{$tablet}{
+        height: 13rem;
+    }
+    @media #{$max_tablet}{
+        height: 20rem;
+    }
+    h2{
+        @include ar();
+        font-size: xx-large;
+        margin-top: 2rem;
+        @include header();
+        @media #{$Mobile}{
+            font-size: medium;
+        }
+        @media #{$max_mobile}{
+            font-size: medium;
+        }
+        @media #{$special}{
+            font-size: smaller;
+        }
+        @media #{$iphone}{
+            font-size: smaller;
+        }
+        @media #{$tablet}{
+            font-size: large;
+        }
+        @media #{$max_tablet}{
+            font-size: x-large;
+        }
+    }
+
+    .headers{
+        display: flex;
+        p{
+            @include ar();
+            font-size: large;
+            font-family: emoji;
+            line-height: 2rem;
+            width: 100%;
+
+            @media #{$Mobile}{
+                font-size: small;
+                line-height: 1.3rem;
+            }
+            @media #{$max_mobile}{
+                font-size: x-small;
+                line-height: 1rem;
+            }
+            @media #{$special}{
+                font-size: x-small;
+                line-height: 1rem;
+            }
+            @media #{$iphone}{
+                font-size: x-small;
+                line-height: 1rem;
+            }
+            @media #{$tablet}{
+                font-size: smaller;
+                line-height: 1.3rem;
+            }
+        }
+        img{
+            width: 33%;
+            margin-top: -4rem;
+            @media #{$Mobile}{
+                width: 31%;
+                margin-top: 0px;
+                overflow: hidden;
+                height: 7rem;
+            }
+            @media #{$max_mobile}{
+                width: 33%;
+                height: 9rem;
+                margin-top: 0rem;
+                overflow: hidden;
+            }
+            @media #{$special}{
+                width: 30%;
+                height: 9rem;
+                margin-top: -2rem;
+                overflow: hidden;
+            }
+            @media #{$iphone}{
+                width: 39%;
+                height: 9rem;
+                margin-top: -2rem;
+                overflow: hidden;
+            }
+            @media #{$tablet}{
+                width: 34%;
+                height: 12rem;        
+                margin-top: -3rem;
+                overflow: hidden;
+            }
+            @media #{$max_tablet}{
+                margin-top: 1rem;
+                overflow: hidden;
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+@import '../../../Scss/helpers/media.scss';
+    .videos{ 
+        height: 27rem;
+        
+    @media #{$Mobile}{
+        height: 15rem;
+
+    }
+    @media #{$max_mobile}{
+        height: 10rem;
+    }
+    @media #{$special}{
+        height: 12rem;
+
+    }
+    @media #{$iphone}{
+        height: 14rem;
+
+    }
+    @media #{$tablet}{
+        height: 14rem;
+    }
+    @media #{$max_tablet}{
+        height: 22rem;
+
+    }
+    @media #{$screen}{
+        height: 29rem;
+
+    }
+                iframe{
+                    width: 83% !important;
+                    height: 23rem !important;
+                    margin-left: 7rem;
+                    margin-bottom: 2rem;
+                    @media #{$Mobile}{
+                        width: 70% !important;
+                        height: 13rem !important;
+                        margin-left: 4rem;
+                    }
+                    @media #{$max_mobile}{
+                        width: 85% !important;
+                        height: 8rem !important;
+                        margin-left: 1.5rem;
+                    }
+                    @media #{$special}{
+                        width: 84% !important;
+                        height: 10rem !important;
+                        margin-left: 2rem;
+                    }
+                    @media #{$iphone}{
+                        width: 84% !important;
+                        height: 11rem !important;
+                        margin-left: 2rem;
+                    }
+                    @media #{$tablet}{
+                        width: 84% !important;
+                        height: 12rem !important;
+                        margin-left: 2rem;
+                    }
+                    @media #{$max_tablet}{
+                        width: 87% !important;
+                        height: 19rem !important;
+                        margin-left: 2rem;
+                    }
+                    @media #{$screen}{
+                        width: 87% !important;
+                        height: 25rem !important;
+                    }
+                }
+            }
+        
+    
+
+
+

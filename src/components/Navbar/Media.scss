@@ -1,0 +1,82 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/mixins';
+@import '../../Scss/helpers/media.scss';
+
+.nav{
+        @media #{$Mobile}{
+            left: 1.5rem;
+            width: 150%;
+        } 
+        @media #{$max_mobile}{
+            left: 1rem;
+            width: 93%;
+        }
+        @media #{$special}{
+            left: 1.7rem;
+            width: 93%;
+        }
+        @media #{$iphone}{
+            left: 1.3rem;
+            width: 100%;
+        }
+        @media #{$tablet}{
+            left: 5rem;
+            width: 80%;
+        } 
+        @media #{$max_tablet}{
+            left: 7rem;
+            width: 76%;
+        }
+        @media #{$screen}{
+            left: 7rem;
+            width: 85%;
+        }
+        @media #{$screen2}{
+            left: 10rem;
+        }
+        
+        @media #{$lap}{
+            left: 13rem;
+            width: 70%;
+        }
+        @media #{$lap2}{
+            left: 16rem;
+            width: 70%;
+        }
+        @media #{$lap3}{
+            left: 19rem;
+            width: 70%;
+        }
+    li{
+            @media #{$Mobile}{
+                height: 2.5rem;
+                font-size: xx-small;
+                width: 6rem;
+            } 
+            @media #{$max_mobile}{
+                height: 2.5rem;
+                font-size: xx-small;
+                width: 4.5rem;
+            } 
+            @media #{$special}{
+                height: 2.5rem;
+                font-size: xx-small;
+                width: 5rem;
+            }
+            @media #{$iphone}{
+                height: 2.5rem;
+                font-size: xx-small;
+                width: 6rem;
+            }
+            @media #{$tablet}{
+                height: 2.5rem;
+                font-size: x-small;
+                width: 6rem;
+            } 
+            @media #{$max_tablet}{
+                height: 3.5rem;
+                width: 8rem;
+            }
+
+    }
+}

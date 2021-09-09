@@ -1,0 +1,118 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/media.scss';
+@import '../../Scss/helpers/mixins';
+
+.containers{
+    div:nth-child(7) {
+        p:last-child{
+            @media #{$Mobile}{
+                display: none;
+            } 
+            @media #{$max_mobile}{
+                display: none;
+            } 
+            @media #{$special}{
+                display: none;
+            }
+            @media #{$iphone}{
+                display: none;
+            }
+        }
+
+    }
+
+
+
+    .products{
+
+        @media #{$Mobile}{
+            height: 190rem;
+
+        } 
+        @media #{$max_mobile}{
+            height: 193rem;
+        } 
+        @media #{$special}{
+            height: 193rem;
+        }
+        @media #{$iphone}{
+            height: 208rem;
+        }
+        @media #{$tablet}{
+            height: 215rem;
+        } 
+        @media #{$max_tablet}{
+            height: 270rem;
+        }
+        @media #{$screen}{
+            height: 300rem;
+        }
+        @media #{$lap}{
+            height: 292rem;
+        }
+
+        .info{
+            
+            img{
+                @media #{$Mobile}{
+                    margin-left: 2.2rem;
+                } 
+                @media #{$max_mobile}{
+                    margin-left: 1rem;
+                    width: 90%;
+                } 
+                @media #{$special}{
+                    margin-left: 1rem;
+                    width: 90%;
+                }
+                @media #{$iphone}{
+                    margin-left: 1rem;
+                    width: 94%;
+                }
+                @media #{$tablet}{
+                    margin-left: 1rem;
+                    width: 94%;
+                } 
+                @media #{$max_tablet}{
+                    margin-left: 3rem;
+                }
+            }
+
+            p{
+
+                
+                    @media #{$Mobile}{
+                        line-height: 1.4rem;
+                        font-size: smaller;
+                        margin-left: 1rem;
+
+                    } 
+                    @media #{$max_mobile}{
+                        line-height: 1.4rem;
+                        font-size: smaller;
+                        margin-left: 1rem;
+                    } 
+                    @media #{$special}{
+                        line-height: 1.4rem;
+                        font-size: smaller;
+                        margin-left: 1rem;
+                    }
+                    @media #{$iphone}{
+                        line-height: 1.4rem;
+                        font-size: smaller;
+                        margin-left: 1rem;
+                    }
+                    @media #{$tablet}{
+                        line-height: 1.4rem;
+                        font-size: smaller;
+                        margin-left: 1rem;
+                    } 
+                    @media #{$max_tablet}{
+                        margin-left: 1rem;
+                    }
+            }
+        }
+    }
+
+}
+

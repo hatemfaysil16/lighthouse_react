@@ -1,0 +1,149 @@
+@import '../../Scss/variables/allvar';
+@import'../../Scss/helpers/media.scss';
+
+.containers{
+    .contact{
+        @media #{$Mobile}{
+            height: 18rem;
+        } 
+        @media #{$max_mobile}{
+            height: 13rem;
+        }
+        @media #{$special}{
+            height: 14rem;
+        }
+        @media #{$iphone}{
+            height: 14rem;
+        }
+        @media #{$tablet}{
+            height: 18rem;
+    
+        } 
+        @media #{$max_tablet}{
+            height: 24rem;
+
+        }
+        @media #{$screen}{
+            height: 23rem;
+        }
+        &__one{
+            margin-top: 3rem;
+            @media #{$Mobile}{
+            } 
+            @media #{$max_mobile}{
+                margin-top: 1.2rem;
+            }
+            @media #{$special}{
+                margin-top: 1.2rem;
+    
+            }
+            @media #{$iphone}{
+                margin-top: 1.2rem;
+            }
+            @media #{$tablet}{
+                margin-top: 1.2rem;
+    
+            } 
+            @media #{$max_tablet}{
+                margin-top: 1.2rem;
+    
+            }
+       
+            img{
+                width: 170%;
+                @media #{$Mobile}{
+                    width: 378%;
+                } 
+                @media #{$max_mobile}{
+                    width: 594%;
+                }
+                @media #{$special}{
+                    width: 455%;
+    
+                }
+                @media #{$iphone}{
+                    width: 362%;
+    
+                }
+                @media #{$tablet}{
+                    width: 300%;
+    
+                } 
+                @media #{$max_tablet}{
+                    width: 250%;
+    
+                }
+                @media #{$screen}{
+                    width: 250%;
+    
+                }
+            }
+        }
+    
+        &__two{
+            @media #{$max_tablet}{
+                margin-left: 7rem;
+            }
+            @media #{$screen}{
+                margin-left: 11rem;
+    
+            }
+            img{
+                @media #{$Mobile}{
+                    width: 35%;
+                } 
+                @media #{$max_mobile}{
+                    width: 35%;
+                }
+                @media #{$special}{
+                    width: 35%;
+                }
+                @media #{$iphone}{
+                    width: 35%;
+                }
+                @media #{$tablet}{
+                    width: 25%;
+                } 
+                @media #{$max_tablet}{
+                    width: 25%;
+                }
+    
+            }
+        }
+    
+        ul{
+            li{
+                @media #{$Mobile}{
+                    font-size: x-small;
+                    width: 117%;
+                } 
+                @media #{$max_mobile}{
+                    font-size: 0.43rem;
+                    width: 113%;
+                }
+                @media #{$special}{
+                    font-size:xx-small;
+                    width: 113%;
+                }
+                @media #{$iphone}{
+                    font-size:xx-small;
+                    width: 113%;
+                }
+                @media #{$tablet}{
+                    font-size:smaller;
+                    width: 113%;
+                } 
+                @media #{$max_tablet}{
+                    font-size: larger;
+                    width: 124%;
+                }
+                @media #{$screen}{
+                    width: 124%;
+    
+                }
+            }
+        }
+    }
+    
+    
+}

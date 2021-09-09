@@ -1,0 +1,31 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/mixins';
+@import '../../Scss/helpers/media.scss';
+
+.nav{
+    position: absolute;
+    top: 8rem;
+    width: 49%;
+    left: 25rem;
+
+
+    li{
+        border: 3px solid $success-color;
+        border-radius: 38px;
+        width: 12rem;
+        height: 3.50rem;
+        background-color:$primary-color;
+        margin-left: 0.10rem;
+        padding-top: 0.6rem;
+        @include flex;
+        &:hover{
+            background-color: $blue;
+        }
+      
+        a{
+            color: $dark;
+            font-family: $font-navbar;
+            font-size: larger;
+        }
+    }
+}

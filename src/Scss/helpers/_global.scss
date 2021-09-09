@@ -1,0 +1,94 @@
+@import './media.scss';
+.input-group{
+    margin-top: 2rem;
+    input[type='search']{
+        display: block;
+        padding: 00.4rem;
+        font-size: 0.7rem;
+        width: 74%;
+        border: 1px solid #ccc;
+        &:focus{
+            color: none ;
+            border: none ;
+        }
+        
+        @media #{$Mobile}{
+            width: 67%;
+        }
+        @media #{$max_mobile}{
+            width: 59%;
+            padding: 0rem;
+        }
+        @media #{$special}{
+            width: 59%;
+            padding: 0rem;
+        }
+        @media #{$iphone}{
+            width: 72%;
+            padding: 0rem;
+        }
+        @media #{$tablet}{
+            width: 72%;
+            padding: 0rem;
+        }
+        @media #{$max_tablet}{
+            width: 70%;
+
+        }
+
+
+    }
+    
+    button{
+        border: none;
+        padding: 0.2rem 0.9rem;
+        @media #{$Mobile}{
+            padding: 0rem;
+        }
+        @media #{$max_mobile}{
+            padding: 0rem;
+        }
+        @media #{$special}{
+            padding: 0rem;
+
+        }
+        @media #{$iphone}{
+            padding: 0rem;
+        }
+        @media #{$tablet}{
+            padding: 0rem;
+        }
+    }
+}
+
+
+
+
+
+// .text{
+//     margin-top: 2rem;
+//     font-family: system-ui;
+//     // @media #{$max_mobile}{
+//     //     position: absolute;
+//     //     right: 1.2rem;
+//     // }
+//     h2{
+//         color:$blue;
+//     }
+//     ul{
+//         li{
+//             margin-top: 1rem;
+//             a{
+//                 color:$three-color;
+//             }
+//         }
+//     }
+// }
+
+
+
+.containers{
+    background-color: $success-color;
+    margin: auto;
+}
+

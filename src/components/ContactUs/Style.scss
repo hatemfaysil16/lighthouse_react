@@ -1,0 +1,39 @@
+@import '../../Scss/variables/allvar';
+@import'../../Scss/helpers/media.scss';
+.containers{
+    .contact{
+        height: 24rem;
+
+        &__one{
+            margin-top: 3rem;
+    
+       
+            img{
+                width: 170%;
+            }
+        }
+    
+        &__two{
+            margin-top: 1rem;
+            margin-left: 5rem;
+    
+            img{
+                width: 14%;
+                margin-top: 1rem;
+            }
+            a{
+                color: $dark;
+            }
+        }
+    
+        ul{
+            li{
+                font-size: x-large;
+                font-weight: 900;
+    
+            }
+        }
+    }
+
+}
+

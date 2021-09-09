@@ -1,0 +1,43 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/mixins';
+@import '../../Scss/helpers/media.scss';
+
+.header{
+    background-color: $blue;
+    height: 10rem;
+    margin-bottom: 4rem;
+    img{
+        width: 10%;
+        margin-top: -7rem;
+        margin-left: 2rem;
+    }
+            @media #{$Mobile}{
+                width: 159%;
+            }
+            @media #{$special}{
+                width: 106%;
+            }
+            @media #{$iphone}{
+                width: 106%;
+        
+              }
+            @media #{$tablet}{
+                width: 102%;
+            }
+    h2{
+            @media #{$max_mobile}{
+                font-size: xxx-large;
+            }
+    }
+    h2,span{
+        color: $dark;
+        @include flex;
+        font-family: ui-serif;
+        }
+
+    .diffrent{
+        color: $primary-color;
+    }
+
+}
+

@@ -1,0 +1,229 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/mixins';
+@import '../../Scss/helpers/media.scss';
+
+
+.footer{
+    width: 100%;
+    @media #{$Mobile}{
+        width: 159%;
+        height: 15rem;
+    } 
+    @media #{$max_mobile}{
+        height: 11rem;
+    }
+    @media #{$special}{
+        height: 12rem;
+        width: 105%;
+
+    }
+    @media #{$iphone}{
+        height: 15rem;
+        width: 106%;
+
+    }
+    @media #{$tablet}{
+        height: 15rem;
+    } 
+
+    &__one{
+        @media #{$Mobile}{
+            margin-left: 1rem;
+        } 
+        @media #{$max_mobile}{
+            margin-left: 1rem;
+        }
+        @media #{$special}{
+            margin-left: 1rem;
+        }
+        @media #{$iphone}{
+            margin-left: 1rem;
+        }
+        @media #{$tablet}{
+            margin-left: 1rem;
+        } 
+        @media #{$max_tablet}{
+            margin-left: 5rem;
+        }
+        @media #{$screen}{
+            margin-left: 5rem;
+
+        }
+        @media #{$lap}{
+            margin-left: 6rem;
+
+        }
+        h2{
+            @media #{$max_mobile}{
+                font-size: smaller;
+            }
+            @media #{$special}{
+                font-size: smaller;
+            }
+        }
+        img{
+            @media #{$Mobile}{
+                width: 121%;
+            } 
+            @media #{$max_mobile}{
+                width: 100%;
+            }
+            @media #{$special}{
+                width: 88%;
+            }
+            @media #{$iphone}{
+                width: 100%;
+            }
+            @media #{$tablet}{
+                width: 90%;
+
+            } 
+            @media #{$max_tablet}{
+                width: 86%;
+            }
+            @media #{$screen}{
+                width: 60%;
+            }
+            @media #{$lap}{
+                width: 50%;
+            }
+
+
+        }
+    }
+    &__two{
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 1rem;
+        @media #{$Mobile}{
+            margin-top: 2rem;
+            margin-left: 3rem;
+            margin-right: 4rem;
+        } 
+        @media #{$max_mobile}{
+            margin-left: 0rem;
+            margin-top: 2.5rem;
+            margin-right: 3rem;
+
+        }
+        @media #{$special}{
+            margin-left: 0rem;
+            margin-top: 2.5rem;
+            margin-right: 3rem;
+        }
+        @media #{$iphone}{
+            margin-left: 0rem;
+            margin-right: 4rem;
+
+        }
+        @media #{$max_tablet}{
+            margin-right: 8rem;
+        }
+        @media #{$tablet}{
+            margin-top: 1rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+        }
+        @media #{$max_tablet}{
+            margin-right: 8rem;
+        }
+        @media #{$screen}{
+            margin-top: 2rem;
+            margin-left: 0rem;
+            margin-right: 12rem;
+        }
+        @media #{$lap}{
+            margin-top: 2rem;
+            margin-left: 0rem;
+            margin-right: 10rem;
+        }
+
+
+        h2{
+
+            @media #{$max_mobile}{
+                font-size: small;
+            }
+            @media #{$special}{
+                font-size: small;
+            }
+        }
+        ul{
+            @media #{$Mobile}{
+                margin-top: 0rem;
+
+            } 
+            @media #{$max_mobile}{
+                margin-top: 0rem;
+                font-size: x-small;
+            }
+            @media #{$special}{
+                margin-top: 0rem;
+                font-size: x-small;
+            }
+            @media #{$iphone}{
+                margin-top: 0rem;
+            }
+            @media #{$tablet}{
+                font-size: small;
+            }
+            .E_mail{
+                @media #{$Mobile}{
+                    width: 133%;
+                } 
+                @media #{$max_mobile}{
+                    width: 133%;
+                }
+                @media #{$special}{
+                    width: 133%;
+                }
+                @media #{$iphone}{
+                    width: 133%;
+
+                }
+                @media #{$max_tablet}{
+                    width: 133%;
+
+                }
+                @media #{$lap}{
+                    width: 133%;
+
+                }
+            }
+            li{
+
+                @media #{$Mobile}{
+                    width: 100%;
+                } 
+                @media #{$max_mobile}{
+                    width: 100%;
+                }
+                @media #{$special}{
+                    width: 100%;
+                }
+                @media #{$iphone}{
+                    width: 100%;
+                }
+                @media #{$max_tablet}{
+                    font-size: smaller;
+                    margin-top: 0.3rem;
+                    width: 150%;
+                }
+                @media #{$tablet}{
+                    width: 100%;
+                }
+                @media #{$screen}{
+                    width: 128%;
+                }
+                @media #{$lap}{
+                    width: 128%;
+                }
+
+            }
+
+        }
+
+    }
+}
+
+

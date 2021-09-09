@@ -1,0 +1,22 @@
+@mixin flex() {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+@mixin  font_footer {
+    font-family: $font-footer;
+    font-weight: bolder;
+}
+
+@mixin ar {
+    text-align: right;
+    direction: rtl;
+}
+
+@mixin header {
+    color:$header;
+    font-weight: bolder;
+}
+
+

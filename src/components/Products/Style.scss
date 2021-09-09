@@ -1,0 +1,33 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/media.scss';
+@import '../../Scss/helpers/mixins';
+
+.containers{
+    .products{
+        height: 329rem;
+        .info{
+            h2{
+                @include flex();
+                padding-top: 2rem;
+                color: #363636b8;
+                font-weight: bolder;
+            }
+            img{
+                width: 84%;
+                margin-left: 6rem;
+            }
+            p{
+                    line-height: 2.4rem;
+                    font-size: x-large;
+                    width: 89%;
+                    @include flex();
+                    margin-left: 5rem;
+                    padding-top: 2rem;
+                    font-family: $font-header;
+                    line-height: 1.9rem;
+            }
+        }
+    }
+
+}
+

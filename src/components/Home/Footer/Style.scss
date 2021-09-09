@@ -1,0 +1,127 @@
+@import '../../../Scss/helpers/mixins';
+@import '../../../Scss/variables/allvar';
+@import '../../../Scss/helpers/media.scss';
+
+    .footers{
+        font-size: large;
+
+        @media #{$max_mobile}{
+            height: 26rem;
+        }
+        h2{
+            text-align: right;
+            font-size: x-large;
+            @include header();
+            @media #{$Mobile}{
+                font-size: medium;
+            }
+            @media #{$max_mobile}{
+                font-size: x-small;
+            }
+            @media #{$special}{
+                font-size: smaller;
+            }
+            @media #{$iphone}{
+                font-size: smaller;
+            }
+            @media #{$tablet}{
+                font-size: large;
+            }
+            @media #{$max_tablet}{
+                font-size: x-large;
+            }
+        }
+       .info{
+        //    display: flex;
+        @include ar();
+        ul{
+            li{
+                @media #{$Mobile}{
+                    font-size: small;
+                    line-height: 1.3rem;
+                }
+                @media #{$max_mobile}{
+                    font-size: xx-small;
+                }
+                @media #{$special}{
+                    font-size: xx-small;
+                }
+                @media #{$iphone}{
+                    font-size: xx-small;
+                }
+                @media #{$tablet}{
+                    font-size: small;
+                }
+            }
+        }
+           p{
+            width: 100%;
+
+            @include ar();
+            font-size: large;
+            line-height: 2rem;
+            @media #{$Mobile}{
+                font-size: x-small;
+                line-height: 1.2rem;
+            }
+            @media #{$max_mobile}{
+                font-size: 7px;
+                line-height: 0.8rem;
+            }
+            @media #{$special}{
+                font-size: x-small;
+                line-height: 0.90rem;
+
+            }
+            @media #{$iphone}{
+                font-size: x-small;
+                line-height: 1rem;
+            }
+            @media #{$tablet}{
+                font-size: smaller;
+                line-height: 1rem;
+            }
+
+           }
+           img{
+            margin: 0.5rem;
+            margin-bottom: 2rem;
+            border-radius: 21%;
+            width: 43%;
+            margin-right: 28rem;
+            margin-top: -17rem;
+            @media #{$Mobile}{
+                display: none;
+            }
+            @media #{$max_mobile}{
+                display: none;
+            }
+            @media #{$special}{
+                display: none;
+            }
+            @media #{$iphone}{
+                display: none;
+            }
+            @media #{$tablet}{
+                display: none;
+            }
+            @media #{$max_tablet}{
+                display: none;
+            }
+            @media #{$screen}{
+                display: none;
+            }
+            @media #{$lap}{
+                margin: 0.5rem;
+                margin-bottom: 2rem;
+                border-radius: 21%;
+                width: 43%;
+                margin-right: 21rem;
+                margin-top: -14rem;
+            }
+           }
+
+       } 
+    }
+
+

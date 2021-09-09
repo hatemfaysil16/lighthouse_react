@@ -1,0 +1,65 @@
+@import './Scss/Style.scss';
+
+body{
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    color: $light;
+    background-color: $primary-color;
+    margin: auto;
+}
+a{
+    text-decoration: none !important;
+    color: $primary-color;
+    a:hover{
+        text-decoration: none;
+    }
+}
+li{
+    list-style: none;
+    margin-top: 0.30rem;
+}
+img{
+    width: 100%;
+}
+p{
+    line-height: 1.30;
+}
+.email{
+  color: $footer-line;
+  text-decoration: underline !important;
+}
+.containers{
+    width: 71%;
+    margin-top: 4rem;
+    @media #{$Mobile}{
+        width: 154%;
+      }
+      @media #{$max_mobile}{
+        width: 94%;
+      }
+      @media #{$special}{
+        width: 102%;
+      }
+      @media #{$iphone}{
+        width: 102%;
+
+      }
+      @media #{$tablet}{
+        width: 97%;
+      }
+      @media #{$max_tablet}{
+        width: 96%;
+      }
+      @media #{$screen}{
+        width: 95%;
+      }
+}
+
+
+
+  
+ 
+
+  
+

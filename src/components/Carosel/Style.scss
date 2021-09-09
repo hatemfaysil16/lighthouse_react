@@ -1,0 +1,99 @@
+@import '../../Scss/variables/allvar';
+@import '../../Scss/helpers/media.scss';
+.carousel{
+    width: 84.20%;
+    margin: auto;
+    margin-bottom: 2rem;
+    @media #{$Mobile}{
+      width: 126%;
+      }
+      @media #{$max_mobile}{
+        width: 100%;
+      }
+      @media #{$special}{
+        width: 103%;
+      }
+      @media #{$iphone}{
+        width: 103%;
+      }
+      @media #{$tablet}{
+        width: 101%;
+      }
+      @media #{$max_tablet}{
+        width: 100%;
+      }
+      @media #{$screen}{
+        width: 100%;
+      }
+
+
+      //background
+        .carousel-caption{
+        left: 0%;
+        bottom: 0px;
+        height: 9rem;
+        width: 100%;
+        background-color: $carsoul;
+        background-size: cover;
+        }
+        .carousel-indicators {
+           display: none;
+        }
+        .carousel-item {
+          height: 33rem;
+          background-color: white !important;
+
+          @media #{$Mobile}{
+            height: 20rem;
+          }
+          @media #{$max_mobile}{
+            height: 20rem;
+        }
+        @media #{$special}{
+          height: 20rem;
+
+        }
+        @media #{$iphone}{
+          height: 20rem;
+        }
+        @media #{$tablet}{
+          height: 20rem;
+
+      }
+      @media #{$max_tablet}{
+        height: 25rem;
+
+    }
+    @media #{$screen}{
+
+    }
+      }
+        
+       
+        img{
+          height: 33rem;
+            @media #{$Mobile}{
+                height: 33rem;
+              }
+              @media #{$max_mobile}{
+                height: 20rem;
+            }
+            @media #{$special}{
+              height: 20rem;
+            }
+            @media #{$iphone}{
+              height: 20rem;
+            }
+            @media #{$tablet}{
+              height: 20rem;
+          }
+          @media #{$max_tablet}{
+            height: 25rem;
+        }
+        @media #{$screen}{
+          height: 33rem;
+        }
+          }
+     
+}
+
